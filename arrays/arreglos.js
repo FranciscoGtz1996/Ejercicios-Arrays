@@ -17,7 +17,9 @@ Note: This approach uses the absolute value of each resistance to ensure all val
 //Escribimos la firma
 //usamos función map para que nos haga la operacion a cada elemento y devuelva un nuevo array
 function sumOfResistors(resistorsArray) {
+//Obtenemos el valor absoluto de cada elemento del arreglo
   const resistorAbs = resistorsArray.map((resistor) => Math.abs(resistor));
+//Mostramos en consola
   console.log(resistorAbs);
   const totalResistance = resistorAbs.reduce((total,current) => total + current,0);
   return `${totalResistance} ohms`;
