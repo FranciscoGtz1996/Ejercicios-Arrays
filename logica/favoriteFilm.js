@@ -1,4 +1,4 @@
-  /*   <!-- User profile
+  /* User profile
 Write a program that prompts a user for their data: username, 
 age, and a list of their favorite movies. Store the information and
  then showcase it in the console. Take note that the output for the films should add a small message like: '
@@ -7,8 +7,8 @@ age, and a list of their favorite movies. Store the information and
  2. utilizar los prompt necesarios para que el usuario ingrese su informacion
  3. ocupando un array vamos a almacenar las peliculas del usuario
  4. Mostrar en consola la informacion del usuario, donde cada pelicula debe tener un mensaje comoe este 
- The film {film} is one of my favorites
- */
+ The film {film} is one of my favorites*/
+ 
 
 let counter = 0;
 const username = prompt("¡Hola! Ingresa tu nombre de usuario: "); //Ingresamos el nombre de usuario
